@@ -72,7 +72,7 @@ build-step "Updating TeX Live..."
 
 # joris: fix to 2017 releases
 # pdomingos: fix to 2022 releases
-tlmgr option repository ftp://ftp.math.utah.edu/pub/tex/historic/systems/texlive/2019/tlnet-final
+tlmgr option repository ftp://ftp.math.utah.edu/pub/tex/historic/systems/texlive/2021/tlnet-final
 # tlmgr option repository "$TEXLIVE_REPOSITORY"
 tlmgr update --self
 
